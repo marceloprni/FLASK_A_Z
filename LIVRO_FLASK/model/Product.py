@@ -3,6 +3,7 @@ from config import app_config, app_active
 from model.User import User
 from model.Category import Category
 
+
 config = app_config[app_active]
 
 db = SQLAlchemy(config.APP)
