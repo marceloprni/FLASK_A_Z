@@ -3,7 +3,7 @@ import random, string
 
 class Config(object):
     CSRF_ENABLED = True
-    SECRET = 'ysb_92=qe#dgjf8%0ng+a*#4rt#5%3*4kw5%i2bck*gn@w3@f&-&'
+    SECRET = 'ysb_92=qe#dgjf8%0ng+a*#4rt#5%3*4kw52bck*gn@w3@f&-&'
     TEMPLATE_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
     ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
     APP = None
